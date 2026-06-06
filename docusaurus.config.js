@@ -20,15 +20,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://redlabworks.github.io/blog/',
+  url: 'https://redlabworks.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'redlabworks', // Usually your GitHub org/user name.
+  projectName: 'blog', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
